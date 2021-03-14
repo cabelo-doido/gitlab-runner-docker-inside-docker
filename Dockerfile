@@ -11,3 +11,6 @@ RUN apk add --no-cache \
     && pip3 install \
         awscli \
     && rm -rf /var/cache/apk/*
+
+# Install npm
+RUN apk add --update npm
